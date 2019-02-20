@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Collection
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Collection\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=
+comment1.target=Collection()
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Collection\n
+comment2.params=doc
+comment2.target=boolean\ ajouter(Document)
+comment3.params=key
+comment3.target=Collection\ recherche(java.lang.String)
+numComments=4
