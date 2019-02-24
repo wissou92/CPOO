@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Fraction
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Fraction\ ici.\n\n\ @author\ SERHAN\n\ @version\ Fevr.\ 2019\n
+comment1.params=numerateur\ denominateur
+comment1.target=Fraction(int,\ int)
+comment1.text=\n\ Constructeurs\ d'objets\ de\ classe\ Fraction\n
+comment2.params=numerateur
+comment2.target=Fraction(int)
+comment3.params=
+comment3.target=Fraction()
+comment4.params=
+comment4.target=void\ Consultation()
+comment4.text=\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\n\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\n\ @return\ \ \ \ \ la\ somme\ de\ x\ et\ de\ y\n
+comment5.params=
+comment5.target=double\ ConsultationVal()
+comment6.params=f1\ f2
+comment6.target=Fraction\ Addition(Fraction,\ Fraction)
+comment7.params=f1\ f2
+comment7.target=boolean\ Egale(Fraction,\ Fraction)
+comment8.params=
+comment8.target=java.lang.String\ FracToString()
+comment9.params=f1\ f2
+comment9.target=java.lang.String\ Comparaison(Fraction,\ Fraction)
+numComments=10
