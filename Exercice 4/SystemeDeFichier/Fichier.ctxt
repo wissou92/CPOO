@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Fichier
-comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Fichier\ ici.\n\n\ @author\ SERHAN\n\ @version\ Fevr.\ 2019\n
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Fichier\ ici.\n\nsuper(nom);\ *\ @author\ SERHAN\n\ @version\ Fevr.\ 2019\n
 comment1.params=taille\ nom
 comment1.target=Fichier(int,\ java.lang.String)
 comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Fichier\n

@@ -1,34 +1,29 @@
 
 /**
- * Décrivez votre classe Fichier ici.
+ * Décrivez votre classe Element ici.
  *
- * @author SERHAN
- * @version Fevr. 2019
+ * @author (votre nom)
+ * @version (un numéro de version ou une date)
  */
-public class Fichier
+public class Element
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int taille;
     private String nom;
 
     /**
-     * Constructeur d'objets de classe Fichier
+     * Constructeur d'objets de classe Element
      */
-    public Fichier(int taille, String nom)
+    public Element(String nom)
     {
         // initialisation des variables d'instance
-        this.taille = taille;
         this.nom = nom;
     }
-    
+
     /**
      * Un exemple de méthode - remplacez ce commentaire par le vôtre
      *
      * @param  y   le paramètre de la méthode
      * @return     la somme de x et de y
      */
-    public int getTaille()
-    {
-        return this.taille;
-    }
+    
 }

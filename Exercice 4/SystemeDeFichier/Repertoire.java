@@ -5,10 +5,9 @@ import java.util.ArrayList;
  * @author SERHAN
  * @version Fevr. 2019
  */
-public class Repertoire
+public class Repertoire extends Element
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private String nom;
     private ArrayList<Repertoire> repList;
     private ArrayList<Fichier> ficList;
 
@@ -17,7 +16,7 @@ public class Repertoire
      */
     public Repertoire(String nom)
     {
-        this.nom = nom;
+        super(nom);
         this.repList = new ArrayList<Repertoire>();
         this.ficList = new ArrayList<Fichier>();
     }
@@ -25,8 +24,7 @@ public class Repertoire
     /**
      * Un exemple de méthode - remplacez ce commentaire par le vôtre
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * @param  rep  le répertoire que l'on souhaite ajouter
      */
     public void Ajouter(Repertoire rep)
     {
@@ -47,7 +45,15 @@ public class Repertoire
     
     public int getTaille()
     {
-        
+        int taille_total=0;
+        for(int i=0; i<this.ficList.size(); i++)
+        {
+            taille_total += this.ficList.get(i).getTaille();
+        }
+        for(int i=0; i<this.repList.size(); i++)
+        {
+            taille_total += this.repList.get(i).getTaille();
+        }
+        return taille_total;
     }
-    
 }
