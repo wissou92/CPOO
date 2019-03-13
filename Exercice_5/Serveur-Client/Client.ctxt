@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Client
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Client\ ici.\n\n\ @author\ (SERHAN)\n\ @version\ (20/02/2019)\n
+comment1.params=nom
+comment1.target=void\ Client(java.lang.String)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Client\n
+comment2.params=serveur
+comment2.target=boolean\ seConnecter(Serveur)
+comment2.text=\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\n\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\n\ @return\ \ \ \ \ la\ somme\ de\ x\ et\ de\ y\n
+comment3.params=msg
+comment3.target=void\ recevoir(java.lang.String)
+comment4.params=msg
+comment4.target=void\ envoyer(java.lang.String)
+numComments=5
