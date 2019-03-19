@@ -1,22 +1,23 @@
-
+import java.awt.Color;
 /**
- * Cette classe contient les pièces de l'échequier
+ * Cette classe concerne les pieces du jeu d'échec et leurs méthodes.
  *
  * @author Serhan Wissam
  * @version 18/03/2019
  */
 public class Piece
 {
-    // 
-    private int id_piece;
+    // Couleur des pièces (noire ou blanche)
+    private Color couleur;
 
     /**
      * Constructeur d'objets de classe Pieces
+     * Attribue une couleur (noir/blanc) à la pièce
      */
-    public void Piece()
+    public void Piece(Color couleur)
     {
         // initialisation des variables d'instance
-        
+        this.couleur = couleur;
     }
 
     /**
@@ -25,8 +26,5 @@ public class Piece
      * @param  y   le paramètre de la méthode
      * @return     la somme de x et de y
      */
-    public void sampleMethod(int y)
-    {
-       
-    }
+    
 }

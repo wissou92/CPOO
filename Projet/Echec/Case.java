@@ -1,6 +1,6 @@
 
 /**
- * Décrivez votre classe Case ici.
+ * Cette classe représente les cases (abscisse, ordonnés, contenu) et leurs méthodes.
  *
  * @author Serhan Wissam
  * @version 18/03/2019
@@ -16,22 +16,23 @@ public class Case
    
     /**
      * Constructeur d'objets de classe Case
+     * Attribue les coordonnées de la case et son contenu
      */
-    public Case()
+    public Case(int x, int y, Piece contenu)
     {
         // initialisation des variables d'instance
-        x = 0;
+        this.x = x;
+        this.y = y;
+        this.contenu = contenu;
     }
 
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * Test si la case est vide
+     * 
+     * @return     true si la case est vide faux sinon
      */
-    public int sampleMethod(int y)
+    public boolean estVide()
     {
-        // Insérez votre code ici
-        return x + y;
+        return (this.contenu == null);
     }
 }

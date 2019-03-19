@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Case
-comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Case\ ici.\n\n\ @author\ Serhan\ Wissam\n\ @version\ 18/03/2019\n
-comment1.params=
-comment1.target=Case()
-comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Case\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\n\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\n\ @return\ \ \ \ \ la\ somme\ de\ x\ et\ de\ y\n
+comment0.text=\n\ Cette\ classe\ repr\u00E9sente\ les\ cases\ (abscisse,\ ordonn\u00E9s,\ contenu)\ et\ leurs\ m\u00E9thodes.\n\n\ @author\ Serhan\ Wissam\n\ @version\ 18/03/2019\n
+comment1.params=x\ y\ contenu
+comment1.target=Case(int,\ int,\ Piece)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Case\n\ Attribue\ les\ coordonn\u00E9es\ de\ la\ case\ et\ son\ contenu\n
+comment2.params=
+comment2.target=boolean\ estVide()
+comment2.text=\n\ Test\ si\ la\ case\ est\ vide\n\ \n\ @return\ \ \ \ \ true\ si\ la\ case\ est\ vide\ faux\ sinon\n
 numComments=3

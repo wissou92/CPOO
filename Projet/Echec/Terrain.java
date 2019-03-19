@@ -1,6 +1,6 @@
 
 /**
- * Le terrain est unique et contient un tableau de type Case, 
+ * Cette classe représente le terrain et ses méthodes, qui est unique et contient un tableau de type Case, 
  * c'est par lui que tout se fera.
  *
  * @author Serhan Wissam
@@ -8,15 +8,17 @@
  */
 public class Terrain
 {
-    private Case terrain[][] = new Case[8][8];    
+    private final int nb_case = 8;
+    private Case terrain[][];    
 
     /**
      * Constructeur d'objets de classe Terrain
+     * Créé le terrain de jeu
      */
     public void Terrain()
     {
         // initialisation des variables d'instance
-     
+     this.terrain = new Case[nb_case][nb_case];
     }
 
     /**
@@ -25,9 +27,5 @@ public class Terrain
      * @param  y   le paramètre de la méthode
      * @return     la somme de x et de y
      */
-    public void sampleMethod(int y)
-    {
-        // Insérez votre code ici
-        
-    }
+    
 }
