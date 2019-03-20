@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Terrain
-comment0.text=\n\ Cette\ classe\ repr\u00E9sente\ le\ terrain\ et\ ses\ m\u00E9thodes,\ qui\ est\ unique\ et\ contient\ un\ tableau\ de\ type\ Case,\ \n\ c'est\ par\ lui\ que\ tout\ se\ fera.\n\n\ @author\ Serhan\ Wissam\n\ @version\ 18/03/2019\n
-comment1.params=
-comment1.target=void\ Terrain()
-comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Terrain\n\ Cr\u00E9\u00E9\ le\ terrain\ de\ jeu\n
-numComments=2

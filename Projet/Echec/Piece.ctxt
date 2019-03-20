@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Piece
-comment0.text=\n\ Cette\ classe\ concerne\ les\ pieces\ du\ jeu\ d'\u00E9chec\ et\ leurs\ m\u00E9thodes.\n\n\ @author\ Serhan\ Wissam\n\ @version\ 18/03/2019\n
-comment1.params=couleur
-comment1.target=void\ Piece(java.awt.Color)
-comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Pieces\n\ Attribue\ une\ couleur\ (noir/blanc)\ \u00E0\ la\ pi\u00E8ce\n
-numComments=2
