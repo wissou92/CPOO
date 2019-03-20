@@ -9,23 +9,28 @@
 public class Terrain
 {
     private final int nb_case = 8;
-    private Case terrain[][];    
+    private Case[][] terrain;    
 
     /**
      * Constructeur d'objets de classe Terrain
      * Créé le terrain de jeu
      */
-    public void Terrain()
+    public Terrain()
     {
         // initialisation des variables d'instance
-     this.terrain = new Case[nb_case][nb_case];
+    	this.terrain = new Case[nb_case][nb_case];
+    	for(int i=0; i<nb_case; i++)
+    	{
+    		for(int j=0; j<nb_case; j++)
+    		{
+    			this.terrain[i][j].Case();
+    		}
+    	}
     }
-
-    /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
-     */
+   
+    public int deplacement(Case c_initial, Case c_final)
+    {
+    	return 0;
+    }
     
 }

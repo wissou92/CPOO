@@ -7,10 +7,6 @@
  */
 public class Case
 {
-    // abscisse de la case
-    private int x;
-    // ordonné de la case
-    private int y;
     // contenu de la case
     private Piece contenu;
    
@@ -18,14 +14,36 @@ public class Case
      * Constructeur d'objets de classe Case
      * Attribue les coordonnées de la case et son contenu
      */
-    public Case(int x, int y, Piece contenu)
+    public Case()
+    {
+        this.contenu = null;
+    }
+    
+    public Case(Piece contenu)
     {
         // initialisation des variables d'instance
-        this.x = x;
-        this.y = y;
         this.contenu = contenu;
     }
-
+    
+    /**
+     * Change le contenu d'une case
+     * 
+     * @param 		contenu de type Piece
+     */
+    public void changeContenu(Piece contenu)
+    {
+    	this.contenu = contenu;
+    }
+    
+    /**
+     * Retourne le contenu de la case de type piece ou null
+     * 
+     * @return 		contenu de la case
+     */
+    public Piece retourneContenu()
+    {
+    	return this.contenu;
+    }
     /**
      * Test si la case est vide
      * 
