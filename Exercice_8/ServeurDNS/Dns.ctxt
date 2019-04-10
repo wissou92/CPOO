@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Dns
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Dns\ ici.\n\n\ @author\ SERHAN\ Wissam\n\ @version\ Avril.\ 2019\n
+comment1.params=
+comment1.target=Dns()
+comment1.text=\n\ \n
+comment2.params=item
+comment2.target=void\ DnsAdd(DnsItem)
+comment2.text=\n\ \n
+comment3.params=nom
+comment3.target=DnsItem\ getItem(NomMachine)
+comment3.text=\n\ \n
+comment4.params=adresse
+comment4.target=DnsItem\ getItem(AdresseIP)
+comment4.text=\n\ \n
+comment5.params=nomDomaine
+comment5.target=java.util.Collection\ getItems(java.lang.String)
+comment5.text=\n\ \n
+numComments=6

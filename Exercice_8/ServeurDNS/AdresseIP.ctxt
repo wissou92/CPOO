@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AdresseIP
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Adresse\ ici.\n\n\ @author\ SERHAN\ Wissam\n\ @version\ Avril.\ 2019\n
+comment1.params=adresse
+comment1.target=AdresseIP(java.lang.String)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Adresse\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Renvoit\ l'adresse\ de\ l'objet\n\ @return\ \ \ \ \ \ \ \ \ \ l'adresse\ de\ l'objet\n
+numComments=3

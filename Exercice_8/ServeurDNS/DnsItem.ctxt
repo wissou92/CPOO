@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DnsItem
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Paire\ ici.\n\n\ @author\ SERHAN\ Wissam\n\ @version\ Avril.\ 2019\n
+comment1.params=adresse\ nom
+comment1.target=DnsItem(AdresseIP,\ NomMachine)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Paire\n
+comment2.params=
+comment2.target=AdresseIP\ getAdresse()
+comment2.text=\n\ @return\ \ \ \ \ \ \ \ \ \ adresse\ ip\ de\ l'objet\n
+comment3.params=
+comment3.target=NomMachine\ getNom()
+comment3.text=\n\ @return\ \ \ \ \ \ \ \ \ \ nom\ machine\ de\ l'objet\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ @return\ \ \ \ \ \ \ \ \ \ nom\ machine\ et\ adresse\ ip\ de\ l'objet\n
+numComments=5
